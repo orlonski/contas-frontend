@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create vite@latest . -- --template react-ts)",
+      "Bash(npm create vite@latest contas-frontend -- --template react-ts)",
+      "Bash(mv contas-frontend/* .)",
+      "Bash(mv contas-frontend/.* .)",
+      "Bash(rmdir contas-frontend)",
+      "Bash(npm install)",
+      "Bash(npm install react-router-dom @tanstack/react-query axios zustand react-hook-form zod @hookform/resolvers date-fns recharts lucide-react clsx tailwind-merge)",
+      "Bash(npm install -D tailwindcss postcss autoprefixer @types/node)",
+      "Bash(npx tailwindcss init -p)",
+      "Bash(mkdir -p src/{components/{ui,forms,layout},pages/{auth,accounts,categories,transactions,invoices,dashboard},services,hooks,lib,store,types,utils})",
+      "Bash(npm run build)",
+      "Bash(npm uninstall tailwindcss)",
+      "Bash(npm install -D tailwindcss@3 @tailwindcss/forms)",
+      "Bash(npm install react-hot-toast)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
