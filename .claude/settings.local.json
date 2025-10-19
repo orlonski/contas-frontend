@@ -14,7 +14,8 @@
       "Bash(npm run build)",
       "Bash(npm uninstall tailwindcss)",
       "Bash(npm install -D tailwindcss@3 @tailwindcss/forms)",
-      "Bash(npm install react-hot-toast)"
+      "Bash(npm install react-hot-toast)",
+      "Bash(del \"c:\\Users\\diego.orlonski\\Documents\\Projetos\\contas-frontend\\serve.json\")"
     ],
     "deny": [],
     "ask": []
